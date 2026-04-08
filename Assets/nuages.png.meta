@@ -3,20 +3,98 @@ guid: 25840479f20effb43bc19f815429dd3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2203285415619360137
-    second: nuages_0
+      213: -4348564163591822268
+    second: Nuages_0
   - first:
-      213: 6175227009077951930
-    second: nuages_1
+      213: -8328224131042449975
+    second: Nuages_1
   - first:
-      213: -2931289061501895724
-    second: nuages_2
+      213: -1432953394612576010
+    second: Nuages_2
   - first:
-      213: -8931760102280985631
-    second: nuages_3
+      213: 4356806812204190498
+    second: Nuages_3
   - first:
-      213: -7324302559092173352
-    second: nuages_4
+      213: -1028014949217892947
+    second: Nuages_4
+  - first:
+      213: 5834473500797628671
+    second: Nuages_5
+  - first:
+      213: -2954728195918355064
+    second: Nuages_6
+  - first:
+      213: -5435418523251244188
+    second: Nuages_7
+  - first:
+      213: -380115116400004569
+    second: Nuages_8
+  - first:
+      213: -3592317004671335463
+    second: Nuages_9
+  - first:
+      213: -4428490103480237987
+    second: Nuages_10
+  - first:
+      213: -2922087664999956526
+    second: Nuages_11
+  - first:
+      213: 8348868279197004327
+    second: Nuages_12
+  - first:
+      213: 1357289110078025296
+    second: Nuages_13
+  - first:
+      213: 8811699252354792569
+    second: Nuages_14
+  - first:
+      213: 2883083272342051488
+    second: Nuages_15
+  - first:
+      213: -3095021891590291
+    second: Nuages_16
+  - first:
+      213: 5727721182385627597
+    second: Nuages_17
+  - first:
+      213: -2655195922159830334
+    second: Nuages_18
+  - first:
+      213: -4893916673090172287
+    second: Nuages_19
+  - first:
+      213: 237563689680375944
+    second: Nuages_20
+  - first:
+      213: -115772059066857604
+    second: Nuages_21
+  - first:
+      213: 1876024352988464667
+    second: Nuages_22
+  - first:
+      213: 2929979398784184381
+    second: Nuages_23
+  - first:
+      213: -8512652109693244110
+    second: Nuages_24
+  - first:
+      213: 4689859791928288304
+    second: Nuages_25
+  - first:
+      213: 2385404759511729526
+    second: Nuages_26
+  - first:
+      213: -33811667210932315
+    second: Nuages_27
+  - first:
+      213: -1883452192720885457
+    second: Nuages_28
+  - first:
+      213: -3553084693442305923
+    second: Nuages_29
+  - first:
+      213: 39190684652494891
+    second: Nuages_30
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,30 +186,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages_0
+      name: Nuages_0
       rect:
         serializedVersion: 2
-        x: 448
-        y: 379
-        width: 88
-        height: 37
+        x: 49
+        y: 1152
+        width: 1076
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77a8537869b5c61e0800000000000000
-      internalID: -2203285415619360137
+      spriteID: 444ad12deebc6a3c0800000000000000
+      internalID: -4348564163591822268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuages_1
+      name: Nuages_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 251
-        width: 216
-        height: 88
+        x: 1632
+        y: 1465
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +227,504 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abd3d7b3f30d2b550800000000000000
-      internalID: 6175227009077951930
+      spriteID: 9c5e06317443c6c80800000000000000
+      internalID: -8328224131042449975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuages_2
+      name: Nuages_2
       rect:
         serializedVersion: 2
-        x: 229
-        y: 294
+        x: 1639
+        y: 1467
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f06d6eca702d1ce0800000000000000
+      internalID: -1432953394612576010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_3
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bce6c56bc767c30800000000000000
+      internalID: 4356806812204190498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_4
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1467
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da58310b9d1cbb1f0800000000000000
+      internalID: -1028014949217892947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_5
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1445
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0f8729cb638f050800000000000000
+      internalID: 5834473500797628671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_6
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1232
+        width: 610
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885a4725c52bef6d0800000000000000
+      internalID: -2954728195918355064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_7
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1461
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4630804b6a38194b0800000000000000
+      internalID: -5435418523251244188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_8
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1400
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722b839c05f89baf0800000000000000
+      internalID: -380115116400004569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_9
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1405
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d348f797b6852ec0800000000000000
+      internalID: -3592317004671335463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1331
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d504abac6b7da82c0800000000000000
+      internalID: -4428490103480237987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df702520c8a277d0800000000000000
+      internalID: -2922087664999956526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1151
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722701a37732dd370800000000000000
+      internalID: 8348868279197004327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 884
+        width: 482
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ee4bf114f06d210800000000000000
+      internalID: 1357289110078025296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_14
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1097
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cbe2c98c1794a70800000000000000
+      internalID: 8811699252354792569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_15
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1117
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa91d106f4c20820800000000000000
+      internalID: 2883083272342051488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 1038
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67649f081105fff0800000000000000
+      internalID: -3095021891590291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_17
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 890
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc163909114fc7f40800000000000000
+      internalID: 5727721182385627597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_18
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 824
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caf89a6069d62bd0800000000000000
+      internalID: -2655195922159830334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_19
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 823
+        width: 9
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a491407b0551cb0800000000000000
+      internalID: -4893916673090172287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_20
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 468
+        width: 735
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8801ee6caeefb4300800000000000000
+      internalID: 237563689680375944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_21
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 763
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c778768fce1b46ef0800000000000000
+      internalID: -115772059066857604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_22
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 755
+        width: 98
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b160cdd953af80a10800000000000000
+      internalID: 1876024352988464667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_23
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 773
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d307ebf4db069a820800000000000000
+      internalID: 2929979398784184381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_24
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 663
         width: 49
-        height: 35
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dbf0331128f157d0800000000000000
-      internalID: -2931289061501895724
+      spriteID: 23d2149120cfcd980800000000000000
+      internalID: -8512652109693244110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuages_3
+      name: Nuages_25
       rect:
         serializedVersion: 2
-        x: 306
-        y: 219
-        width: 201
-        height: 65
+        x: 523
+        y: 663
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +755,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e3098c62830c0480800000000000000
-      internalID: -8931760102280985631
+      spriteID: 034e54002aab51140800000000000000
+      internalID: 4689859791928288304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuages_4
+      name: Nuages_26
       rect:
         serializedVersion: 2
-        x: 81
-        y: 77
-        width: 291
-        height: 88
+        x: 528
+        y: 664
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +777,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d593d9d0a9da5a90800000000000000
-      internalID: -7324302559092173352
+      spriteID: 67509388df8aa1120800000000000000
+      internalID: 2385404759511729526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_27
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 666
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe0a2c770e78ff0800000000000000
+      internalID: -33811667210932315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_28
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 150
+        width: 1316
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29e07da532acd5e0800000000000000
+      internalID: -1883452192720885457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_29
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 270
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d706e7edb48e0bec0800000000000000
+      internalID: -3553084693442305923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuages_30
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 252
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20673558bb3b8000800000000000000
+      internalID: 39190684652494891
       vertices: []
       indices: 
       edges: []
@@ -248,11 +885,37 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages_0: -2203285415619360137
-      nuages_1: 6175227009077951930
-      nuages_2: -2931289061501895724
-      nuages_3: -8931760102280985631
-      nuages_4: -7324302559092173352
+      Nuages_0: -4348564163591822268
+      Nuages_1: -8328224131042449975
+      Nuages_10: -4428490103480237987
+      Nuages_11: -2922087664999956526
+      Nuages_12: 8348868279197004327
+      Nuages_13: 1357289110078025296
+      Nuages_14: 8811699252354792569
+      Nuages_15: 2883083272342051488
+      Nuages_16: -3095021891590291
+      Nuages_17: 5727721182385627597
+      Nuages_18: -2655195922159830334
+      Nuages_19: -4893916673090172287
+      Nuages_2: -1432953394612576010
+      Nuages_20: 237563689680375944
+      Nuages_21: -115772059066857604
+      Nuages_22: 1876024352988464667
+      Nuages_23: 2929979398784184381
+      Nuages_24: -8512652109693244110
+      Nuages_25: 4689859791928288304
+      Nuages_26: 2385404759511729526
+      Nuages_27: -33811667210932315
+      Nuages_28: -1883452192720885457
+      Nuages_29: -3553084693442305923
+      Nuages_3: 4356806812204190498
+      Nuages_30: 39190684652494891
+      Nuages_4: -1028014949217892947
+      Nuages_5: 5834473500797628671
+      Nuages_6: -2954728195918355064
+      Nuages_7: -5435418523251244188
+      Nuages_8: -380115116400004569
+      Nuages_9: -3592317004671335463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
