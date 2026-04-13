@@ -5,6 +5,7 @@ public class ChoiceManager : MonoBehaviour
 {
     public GameObject option1Button;
     public GameObject option2Button;
+    public GameObject backgroundButton;
 
     public void ChooseOption1()
     {
@@ -22,5 +23,6 @@ public class ChoiceManager : MonoBehaviour
     {
         option1Button.SetActive(false);
         option2Button.SetActive(false);
+        backgroundButton.SetActive(false);
     }
 }
