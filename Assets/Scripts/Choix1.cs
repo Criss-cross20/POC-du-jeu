@@ -1,16 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Choix1 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+  public void ForetLoad()
+  {
+    SceneManager.LoadScene("Foret");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  }
 }
