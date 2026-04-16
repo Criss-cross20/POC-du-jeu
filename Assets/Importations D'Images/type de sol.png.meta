@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 65308b5924b284dc9a96d5e5494797c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7173843290197580721
+    second: type de sol_0
+  - first:
+      213: 1541802657551148275
+    second: type de sol_1
+  - first:
+      213: 4103635818709230146
+    second: type de sol_2
+  - first:
+      213: -3574581963764754610
+    second: type de sol_3
+  - first:
+      213: 984441116304418225
+    second: type de sol_4
+  - first:
+      213: -4081423840328067930
+    second: type de sol_5
+  - first:
+      213: -6960165481735937746
+    second: type de sol_6
+  - first:
+      213: 54171910743422440
+    second: type de sol_7
+  - first:
+      213: -191312528829950275
+    second: type de sol_8
+  - first:
+      213: 8317883603912437145
+    second: type de sol_9
+  - first:
+      213: 8935907614441570276
+    second: type de sol_10
+  - first:
+      213: -5809573736957725324
+    second: type de sol_11
+  - first:
+      213: 1758162540079490532
+    second: type de sol_12
+  - first:
+      213: -8263140344456196129
+    second: type de sol_13
+  - first:
+      213: -7864130822332310030
+    second: type de sol_14
+  - first:
+      213: -1434838578242816014
+    second: type de sol_15
+  - first:
+      213: -7075247031427536241
+    second: type de sol_16
+  - first:
+      213: -6043985588124024260
+    second: type de sol_17
+  - first:
+      213: 6802916903716098760
+    second: type de sol_18
+  - first:
+      213: 167527531812870544
+    second: type de sol_19
+  - first:
+      213: -5106411227072375999
+    second: type de sol_20
+  - first:
+      213: -3170573936108150432
+    second: type de sol_21
+  - first:
+      213: 8839939982614202769
+    second: type de sol_22
+  - first:
+      213: 5037976877717820534
+    second: type de sol_23
+  - first:
+      213: -4993674303182765752
+    second: type de sol_24
+  - first:
+      213: -1310464808878777199
+    second: type de sol_25
+  - first:
+      213: -2081347566739209927
+    second: type de sol_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: type de sol_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1495
+        width: 10000
+        height: 1189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdb8ab67c9e8360800000000000000
+      internalID: 7173843290197580721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2674
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4e6152955956510800000000000000
+      internalID: 1541802657551148275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2676
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242abbdf80b03f830800000000000000
+      internalID: 4103635818709230146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1505
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47984594a8846ec0800000000000000
+      internalID: -3574581963764754610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1506
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b52d9fbaff69ad00800000000000000
+      internalID: 984441116304418225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_5
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1505
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a45f6b34aedb57c0800000000000000
+      internalID: -4081423840328067930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_6
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1506
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21a133fe56886f90800000000000000
+      internalID: -6960165481735937746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_7
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1509
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e57aa8d01570c000800000000000000
+      internalID: 54171910743422440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1507
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db65206c442585df0800000000000000
+      internalID: -191312528829950275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_9
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1510
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d2f36511f0f6370800000000000000
+      internalID: 8317883603912437145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_10
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1510
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef7f7081a8b20c70800000000000000
+      internalID: 8935907614441570276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_11
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1501
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753238777f306fa0800000000000000
+      internalID: -5809573736957725324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1503
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e526dad38f366810800000000000000
+      internalID: 1758162540079490532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_13
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1491
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf4d7ff2ad635d80800000000000000
+      internalID: -8263140344456196129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 589
+        width: 10000
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9eabdeaefcd290800000000000000
+      internalID: -7864130822332310030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_15
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 1329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f77fc94aed661ce0800000000000000
+      internalID: -1434838578242816014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 594
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aef99af4cafcd90800000000000000
+      internalID: -7075247031427536241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10000
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32894841237f1ca0800000000000000
+      internalID: -6043985588124024260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_18
+      rect:
+        serializedVersion: 2
+        x: 6724
+        y: 412
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c29f7a61e0d86e50800000000000000
+      internalID: 6802916903716098760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_19
+      rect:
+        serializedVersion: 2
+        x: 6725
+        y: 400
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099ddcf076d235200800000000000000
+      internalID: 167527531812870544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_20
+      rect:
+        serializedVersion: 2
+        x: 6837
+        y: 414
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143d84d3b026229b0800000000000000
+      internalID: -5106411227072375999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_21
+      rect:
+        serializedVersion: 2
+        x: 6839
+        y: 406
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0616924bdcbdff3d0800000000000000
+      internalID: -3170573936108150432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_22
+      rect:
+        serializedVersion: 2
+        x: 6842
+        y: 399
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1990e730496cdaa70800000000000000
+      internalID: 8839939982614202769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_23
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 413
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6749007274d7ae540800000000000000
+      internalID: 5037976877717820534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_24
+      rect:
+        serializedVersion: 2
+        x: 6949
+        y: 401
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8418bcacda7e2bab0800000000000000
+      internalID: -4993674303182765752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_25
+      rect:
+        serializedVersion: 2
+        x: 6991
+        y: 407
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c5120133b40dde0800000000000000
+      internalID: -1310464808878777199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: type de sol_26
+      rect:
+        serializedVersion: 2
+        x: 7068
+        y: 407
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931c26e5a619d13e0800000000000000
+      internalID: -2081347566739209927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      type de sol_0: 7173843290197580721
+      type de sol_1: 1541802657551148275
+      type de sol_10: 8935907614441570276
+      type de sol_11: -5809573736957725324
+      type de sol_12: 1758162540079490532
+      type de sol_13: -8263140344456196129
+      type de sol_14: -7864130822332310030
+      type de sol_15: -1434838578242816014
+      type de sol_16: -7075247031427536241
+      type de sol_17: -6043985588124024260
+      type de sol_18: 6802916903716098760
+      type de sol_19: 167527531812870544
+      type de sol_2: 4103635818709230146
+      type de sol_20: -5106411227072375999
+      type de sol_21: -3170573936108150432
+      type de sol_22: 8839939982614202769
+      type de sol_23: 5037976877717820534
+      type de sol_24: -4993674303182765752
+      type de sol_25: -1310464808878777199
+      type de sol_26: -2081347566739209927
+      type de sol_3: -3574581963764754610
+      type de sol_4: 984441116304418225
+      type de sol_5: -4081423840328067930
+      type de sol_6: -6960165481735937746
+      type de sol_7: 54171910743422440
+      type de sol_8: -191312528829950275
+      type de sol_9: 8317883603912437145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
