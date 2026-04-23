@@ -1085,8 +1085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd1f68e7d3e0417ab2af173b3f29e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Choix2
-  Choix2Panel: {fileID: 298171706}
-  Choix1Panel: {fileID: 1527158548}
+  Choix2Panel: {fileID: 1527158548}
+  Choix1Panel: {fileID: 298171706}
 --- !u!1 &127363984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1276,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8237026599052796026, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1527158553}
   m_SourcePrefab: {fileID: 100100000, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
 --- !u!1 &152919863
 GameObject:
@@ -14001,6 +14004,20 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
   m_PrefabInstance: {fileID: 147715462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527158553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527158548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1749eb7d25c5d466a837d6fd0be19202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Champ1
+  Fleur: {fileID: 181630431}
+  Choix2Panel: {fileID: 1527158548}
 --- !u!1 &1542963286
 GameObject:
   m_ObjectHideFlags: 0

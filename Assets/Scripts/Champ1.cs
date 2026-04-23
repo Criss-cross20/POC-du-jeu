@@ -1,19 +1,20 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class Champ1 : MonoBehaviour
 {
     public GameObject Fleur;
+    public GameObject Choix2Panel;
+
 
     public void ChampChoix1()
     {
-        SceneManager.LoadScene("SampleScene");
+        Choix2Panel.SetActive(false);
     }
 
     public void ChampChoix2()
     {
-        SceneManager.LoadScene("SampleScene");
+        Choix2Panel.SetActive(false);
         Destroy(Fleur);
     }
 }
