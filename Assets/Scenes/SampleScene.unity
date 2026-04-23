@@ -1672,7 +1672,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -4
+  m_SortingOrder: -11
   m_Sprite: {fileID: -2672978837320121622, guid: b27177fbdc9a548ac98c3cda0ed307a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1693,7 +1693,7 @@ Transform:
   m_GameObject: {fileID: 221769691}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.4, y: 8.2, z: 0}
+  m_LocalPosition: {x: 105.4, y: 64.8, z: 0}
   m_LocalScale: {x: 14.089358, y: 1.5375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Foret1
   Choix1Panel: {fileID: 298171706}
-  Animal: {fileID: 0}
+  Animal: {fileID: 1803199621}
   Brouillard: {fileID: 221769691}
 --- !u!1 &299147985
 GameObject:
@@ -15772,8 +15772,8 @@ Transform:
   m_GameObject: {fileID: 1803199621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.5, y: 19.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 34.24, y: 0.9, z: 0}
+  m_LocalScale: {x: 0.4054, y: 0.4203, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

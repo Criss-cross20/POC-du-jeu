@@ -17,7 +17,7 @@ public class Foret1 : MonoBehaviour
    {
     Choix1Panel.SetActive(false);
     Destroy(Animal);
-    Instantiate(Brouillard);
-    
+    Instantiate(Brouillard, new Vector3(105, 8, 0), Quaternion.identity);
+
    }
 }
