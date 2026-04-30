@@ -1,11 +1,17 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Choix4 : MonoBehaviour
 {
-  public void PlageLoad()
+  public GameObject Choix1Panel;
+  public GameObject Choix2Panel;
+  public GameObject Choix4Panel;
+
+  public void Choix4Load()
   {
-    SceneManager.LoadScene("Plage");
+    Choix1Panel.SetActive(false);
+    Choix2Panel.SetActive(false);
+    Choix4Panel.SetActive(true);
+    
 
   }
 }
