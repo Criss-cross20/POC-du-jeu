@@ -3,17 +3,29 @@ using UnityEngine;
 public class Foret2 : MonoBehaviour
 {
 
-  public GameObject Choix3Panel;
   
-  public void ForetChoix1()
+  public GameObject ArbreCoupe;
+  public GameObject Arbre;
+  public GameObject Choix4Panel;
+  public GameObject AutreArbre;
+  public GameObject AutreArbre2;
+
+
+  public void Foret2Choix1()
   {
-    Choix3Panel.SetActive(false);
+    Choix4Panel.SetActive(false);
+
   }
 
-  public void ForetChoix2()
+  public void Foret2Choix2()
   {
-    Choix3Panel.SetActive(false);
-    
+    Choix4Panel.SetActive(false);
+    Destroy(Arbre);
+    Instantiate(ArbreCoupe, new Vector3(109, 1, 0), Quaternion.Euler(0, 0, -1));
+    Destroy(AutreArbre);
+    Destroy(AutreArbre2);
+
+
   }
 
 
