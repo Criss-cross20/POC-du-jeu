@@ -9,8 +9,8 @@ public class MenuController : MonoBehaviour
     // Show the objectif panel and hide the menu
     public void ShowObjectif()
     {
-        mainMenuGroup.SetActive(false);
         objectifPanel.SetActive(true);
+        mainMenuGroup.SetActive(false);
     }
 
     // Hide the objectif panel and show the menu again
