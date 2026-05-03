@@ -382,9 +382,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 116451736}
-        m_TargetAssemblyTypeName: Choix4, Assembly-CSharp
-        m_MethodName: PlageLoad
+      - m_Target: {fileID: 116451742}
+        m_TargetAssemblyTypeName: Choix6, Assembly-CSharp
+        m_MethodName: Choix6Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1096,7 +1096,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 116451736}
         m_TargetAssemblyTypeName: Choix4, Assembly-CSharp
-        m_MethodName: PlageLoad
+        m_MethodName: Choix4Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1813,18 +1813,18 @@ PrefabInstance:
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 110403497}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlageChoix2
+      value: NuitChoix2
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Plage, Assembly-CSharp
+      value: Nuit, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1925,18 +1925,18 @@ PrefabInstance:
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 110403497}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlageChoix1
+      value: NuitChoix1
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Plage, Assembly-CSharp
+      value: Nuit, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2098,6 +2098,10 @@ GameObject:
   - component: {fileID: 116451738}
   - component: {fileID: 116451737}
   - component: {fileID: 116451736}
+  - component: {fileID: 116451743}
+  - component: {fileID: 116451742}
+  - component: {fileID: 116451741}
+  - component: {fileID: 116451740}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2212,10 +2216,10 @@ MonoBehaviour:
   Choix2Panel: {fileID: 1527158548}
   Choix4Panel: {fileID: 2042274301}
   Choix3Panel: {fileID: 1427868120}
-  Choix5Panel: {fileID: 0}
-  Choix6Panel: {fileID: 0}
-  Choix7Panel: {fileID: 0}
-  Choix8Panel: {fileID: 0}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
 --- !u!114 &116451737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2232,10 +2236,10 @@ MonoBehaviour:
   Choix2Panel: {fileID: 1527158548}
   Choix3Panel: {fileID: 1427868120}
   Choix4Panel: {fileID: 2042274301}
-  Choix5Panel: {fileID: 0}
-  Choix6Panel: {fileID: 0}
-  Choix7Panel: {fileID: 0}
-  Choix8Panel: {fileID: 0}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
 --- !u!114 &116451738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2252,10 +2256,10 @@ MonoBehaviour:
   Choix2Panel: {fileID: 1527158548}
   Choix4Panel: {fileID: 2042274301}
   Choix3Panel: {fileID: 1427868120}
-  Choix5Panel: {fileID: 0}
-  Choix6Panel: {fileID: 0}
-  Choix7Panel: {fileID: 0}
-  Choix8Panel: {fileID: 0}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
 --- !u!114 &116451739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2270,12 +2274,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Choix2
   Choix2Panel: {fileID: 1527158548}
   Choix1Panel: {fileID: 298171706}
-  Choix4Panel: {fileID: 0}
-  Choix3Panel: {fileID: 0}
-  Choix5Panel: {fileID: 0}
-  Choix6Panel: {fileID: 0}
-  Choix7Panel: {fileID: 0}
-  Choix8Panel: {fileID: 0}
+  Choix4Panel: {fileID: 2042274301}
+  Choix3Panel: {fileID: 1427868120}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
+--- !u!114 &116451740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116451731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49d1b7dd3e714e4a997eea82b9f2446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choix8
+  Choix1Panel: {fileID: 298171706}
+  Choix2Panel: {fileID: 1527158548}
+  Choix3Panel: {fileID: 1427868120}
+  Choix4Panel: {fileID: 2042274301}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
+--- !u!114 &116451741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116451731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291ffa5673723b942bc5faf23adee042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choix7
+  Choix1Panel: {fileID: 298171706}
+  Choix2Panel: {fileID: 1527158548}
+  Choix3Panel: {fileID: 1427868120}
+  Choix4Panel: {fileID: 2042274301}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
+--- !u!114 &116451742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116451731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b2320f6bfd76e4a83160a605826efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choix6
+  Choix1Panel: {fileID: 298171706}
+  Choix2Panel: {fileID: 1527158548}
+  Choix3Panel: {fileID: 1427868120}
+  Choix4Panel: {fileID: 2042274301}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
+--- !u!114 &116451743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116451731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3eb3c2abd8b16240aca0681cba34b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choix5
+  Choix1Panel: {fileID: 298171706}
+  Choix2Panel: {fileID: 1527158548}
+  Choix3Panel: {fileID: 1427868120}
+  Choix4Panel: {fileID: 2042274301}
+  Choix5Panel: {fileID: 1306278434}
+  Choix6Panel: {fileID: 2112917629}
+  Choix7Panel: {fileID: 110403496}
+  Choix8Panel: {fileID: 682291042}
 --- !u!1 &117565080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5610,9 +5694,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 116451736}
-        m_TargetAssemblyTypeName: Choix4, Assembly-CSharp
-        m_MethodName: PlageLoad
+      - m_Target: {fileID: 116451740}
+        m_TargetAssemblyTypeName: Choix8, Assembly-CSharp
+        m_MethodName: Choix8Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8553,11 +8637,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChampChoix2
+      value: QuitterChoix1
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Champ1, Assembly-CSharp
+      value: Quitter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 683122086222721475, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8665,11 +8749,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChampChoix1
+      value: QuitterChoix1
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Champ1, Assembly-CSharp
+      value: Quitter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5790509772626165171, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8718,16 +8802,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 682291042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1749eb7d25c5d466a837d6fd0be19202, type: 3}
+  m_Script: {fileID: 11500000, guid: 432dbef8ed8dc304ba69bb3e3e9fac7c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Champ1
-  Fleur: {fileID: 181630431}
-  Fleur2: {fileID: 0}
-  Fleur3: {fileID: 0}
-  Fleur4: {fileID: 0}
-  Fleur5: {fileID: 0}
-  Fleur6: {fileID: 0}
-  Choix2Panel: {fileID: 682291042}
+  m_EditorClassIdentifier: Assembly-CSharp::Quitter
 --- !u!1 &686377739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8901,9 +8978,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 116451737}
-        m_TargetAssemblyTypeName: Choix3, Assembly-CSharp
-        m_MethodName: MontagneLoad
+      - m_Target: {fileID: 116451741}
+        m_TargetAssemblyTypeName: Choix7, Assembly-CSharp
+        m_MethodName: Choix7Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17027,9 +17104,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 116451736}
-        m_TargetAssemblyTypeName: Choix4, Assembly-CSharp
-        m_MethodName: PlageLoad
+      - m_Target: {fileID: 116451743}
+        m_TargetAssemblyTypeName: Choix5, Assembly-CSharp
+        m_MethodName: Choix5Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23761,9 +23838,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 116451736}
-        m_TargetAssemblyTypeName: Choix4, Assembly-CSharp
-        m_MethodName: PlageLoad
+      - m_Target: {fileID: 116451737}
+        m_TargetAssemblyTypeName: Choix3, Assembly-CSharp
+        m_MethodName: Choix3Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30178,7 +30255,7 @@ MonoBehaviour:
   Choix6Panel: {fileID: 2112917629}
   Eau: {fileID: 1312387469}
   SacADos: {fileID: 0}
-  Animal: {fileID: 0}
+  Animal: {fileID: 2016889585}
 --- !u!1 &2141595732
 GameObject:
   m_ObjectHideFlags: 0
