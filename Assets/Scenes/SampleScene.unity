@@ -3491,7 +3491,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -11
+  m_SortingOrder: -2
   m_Sprite: {fileID: -2672978837320121622, guid: b27177fbdc9a548ac98c3cda0ed307a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.2784314}
   m_FlipX: 0
@@ -10359,13 +10359,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785548357}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 109, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1697992921}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &785548359
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21389,7 +21389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63414c9501c20c4a8ee1ef152531b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Plage
-  Choix5Panel: {fileID: 110403496}
+  Choix5Panel: {fileID: 1306278434}
   Animal: {fileID: 1819130605}
   BackgroundColour: {fileID: 1741670617}
 --- !u!1 &1312387469

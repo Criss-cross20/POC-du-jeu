@@ -21,7 +21,7 @@ public class Foret2 : MonoBehaviour
   {
     Choix4Panel.SetActive(false);
     Destroy(Arbre);
-    Instantiate(ArbreCoupe, new Vector3(109, 1, 0), Quaternion.Euler(0, 0, -1));
+    Instantiate(ArbreCoupe, new Vector3(109, 1, 0), Quaternion.Euler(0, 0, 0));
     Destroy(AutreArbre);
     Destroy(AutreArbre2);
 
