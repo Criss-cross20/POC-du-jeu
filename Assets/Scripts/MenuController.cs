@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject objectifPanel;     // The full-screen text panel
-    public GameObject mainMenuGroup;     // The parent object containing the menu buttons + title
+    public GameObject objectifPanel;     // The text box panel
+    public GameObject mainMenuGroup;     // The menu buttons + title
 
     // Show the objectif panel and hide the menu
     public void ShowObjectif()
@@ -23,15 +23,13 @@ public class MenuController : MonoBehaviour
     // Start the game
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene"); // Replace with your game scene name
+        SceneManager.LoadScene("SampleScene"); // Must match your scene name exactly
     }
 
     // Quit the game
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Game closed."); // Only visible in build
+        Debug.Log("Game closed."); // Works only in build, not in editor
     }
 }
-
-
