@@ -10,6 +10,9 @@ public class Choix5 : MonoBehaviour
     public GameObject Choix6Panel;
     public GameObject Choix7Panel;
     public GameObject Choix8Panel;
+    public GameObject Choix9Panel;
+    public GameObject Choix10Panel;
+
     
 public void Choix5Load()
     {
@@ -21,6 +24,9 @@ public void Choix5Load()
         Choix6Panel.SetActive(false);
         Choix7Panel.SetActive(false);
         Choix8Panel.SetActive(false);
+        Choix9Panel.SetActive(false);
+        Choix10Panel.SetActive(false);
+        
         
     }
 

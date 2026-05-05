@@ -1,9 +1,8 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Choix1 : MonoBehaviour
+public class Choix9 : MonoBehaviour
 {
-public GameObject Choix1Panel;
+   public GameObject Choix1Panel;
 public GameObject Choix2Panel;
 public GameObject Choix4Panel;
 public GameObject Choix3Panel;
@@ -16,9 +15,9 @@ public GameObject Choix10Panel;
 
 
 
-  public void ForetLoad()
+  public void MontagneLoad()
   {
-    Choix1Panel.SetActive(true);
+    Choix1Panel.SetActive(false);
     Choix2Panel.SetActive(false);
     Choix4Panel.SetActive(false);
     Choix3Panel.SetActive(false);
@@ -26,7 +25,7 @@ public GameObject Choix10Panel;
     Choix6Panel.SetActive(false);
     Choix7Panel.SetActive(false);
     Choix8Panel.SetActive(false);
-    Choix9Panel.SetActive(false);
+    Choix9Panel.SetActive(true);
     Choix10Panel.SetActive(false);
     
     
