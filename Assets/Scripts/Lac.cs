@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Lac : MonoBehaviour
 {
@@ -12,8 +13,15 @@ public class Lac : MonoBehaviour
     public void LacChoix1()
     {
         Choix6Panel.SetActive(false);
-        
+        StartCoroutine(FreezeRoutine());
 
+    }
+
+    IEnumerator FreezeRoutine()
+    {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(30f);
+        Time.timeScale = 1f;
     }
     public void LacChoix2()
     {

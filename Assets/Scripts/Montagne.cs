@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Montagne : MonoBehaviour
 {
@@ -7,9 +8,17 @@ public class Montagne : MonoBehaviour
    public GameObject CubeRouge;
    
 
+
    public void MontagneChoix1()
     {
         Choix9Panel.SetActive(false);
+        StartCoroutine(FreezeRoutine());
+    }
+     IEnumerator FreezeRoutine()
+    {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(30f);
+        Time.timeScale = 1f;
     }
 
     public void MontagneChoix2()
