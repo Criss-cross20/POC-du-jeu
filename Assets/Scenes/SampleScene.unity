@@ -8508,7 +8508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026696514517547145, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "Vous avez explor\xE9 la plan\xE8te"
+      value: La neige bloque votre chemin
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_Pivot.x
@@ -8572,11 +8572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 492.7
+      value: 391.5
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 19.1
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8620,11 +8620,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7966074606223228954, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "Quitter la plan\xE8te et la consid\xE9rer invivable"
+      value: "\xC9tudier le chemin avant de s'y aventurer"
       objectReference: {fileID: 0}
     - target: {fileID: 8209882410881828118, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "\xC9tablir l'humanit\xE9 de mani\xE8re permanente"
+      value: "D\xE9clencher une avalanche pour savoir o\xF9 y mettre les pieds"
       objectReference: {fileID: 0}
     - target: {fileID: 8237026599052796026, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_Name
@@ -9149,7 +9149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026696514517547145, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "Vous avez explor\xE9 la plan\xE8te"
+      value: Il fait sombre et froid
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_Pivot.x
@@ -9213,7 +9213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 492.7
+      value: 206
       objectReference: {fileID: 0}
     - target: {fileID: 4617028655139746950, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -9261,11 +9261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7966074606223228954, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "Quitter la plan\xE8te et la consid\xE9rer invivable"
+      value: "S'\xE9clairer avec sa lampe de poche"
       objectReference: {fileID: 0}
     - target: {fileID: 8209882410881828118, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_text
-      value: "\xC9tablir l'humanit\xE9 de mani\xE8re permanente"
+      value: Allumer un feu
       objectReference: {fileID: 0}
     - target: {fileID: 8237026599052796026, guid: 0355185c6c7c708498cc5e85d49a5672, type: 3}
       propertyPath: m_Name
@@ -26058,7 +26058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lumi\xE8re"
+  m_text: Feu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
