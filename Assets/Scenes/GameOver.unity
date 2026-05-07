@@ -278,7 +278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous avez perdu...\n\n\n\n\n\nDepuis que vous avez accepter de visiter
+  m_text: "Vous avez perdu...\n\n\n\n\n\nDepuis que vous avez accept\xE9 de visiter
     la plan\xE8te"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
