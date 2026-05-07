@@ -13,7 +13,7 @@ public class MusicManager : MonoBehaviour
     {
         // Intro starts automatically (Play On Awake on introMusic)
         // Ensure volumes are set correctly
-        introMusic.volume = 1f;
+        introMusic.volume = 0.2f;
         loopMusic.volume = 0f;
     }
 
@@ -39,14 +39,14 @@ public class MusicManager : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = elapsed / fadeDuration;
 
-            introMusic.volume = Mathf.Lerp(startIntroVol, 0f, t);
-            loopMusic.volume = Mathf.Lerp(startLoopVol, 1f, t);
+            introMusic.volume = Mathf.Lerp(startIntroVol, 0.2f, t);
+            loopMusic.volume = Mathf.Lerp(startLoopVol, 0.2f, t);
 
             yield return null;
         }
 
-        introMusic.volume = 0f;
-        loopMusic.volume = 1f;
+        introMusic.volume = 0.2f;
+        loopMusic.volume = 0.2f;
         introMusic.Stop();
     }
 }
