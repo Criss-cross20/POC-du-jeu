@@ -6,22 +6,22 @@ public class Montagne : MonoBehaviour
    public GameObject Choix9Panel;
    public GameObject Neige;
    public GameObject CubeRouge;
+
+    public float timertime;
+   public bool TimerBool = false;
+
+   public GameObject Blackout;
    
 
 
    public void MontagneChoix1()
     {
         Choix9Panel.SetActive(false);
-        StartCoroutine(FreezeRoutine());
+        TimerBool = true;
         Destroy(CubeRouge);
         
     }
-     IEnumerator FreezeRoutine()
-    {
-        Time.timeScale = 0f;
-        yield return new WaitForSecondsRealtime(30f);
-        Time.timeScale = 1f;
-    }
+    
 
     public void MontagneChoix2()
     {
@@ -29,5 +29,19 @@ public class Montagne : MonoBehaviour
         Destroy(Neige);
         Destroy(CubeRouge);
 
+    }
+    public void Update()
+    {
+        if(TimerBool == true)
+        {
+            Blackout.SetActive(true);
+            timertime = timertime+ Time.deltaTime;
+        }
+        if(timertime>= 10f)
+        {
+            Blackout.SetActive(false);
+            TimerBool = false;
+            timertime=0;
+        }
     }
 }

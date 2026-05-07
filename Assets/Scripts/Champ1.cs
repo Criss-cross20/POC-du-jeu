@@ -11,6 +11,10 @@ public class Champ1 : MonoBehaviour
     public GameObject Fleur6;
 
     public GameObject Choix2Panel;
+    public float timertime;
+   public bool TimerBool = false;
+
+   public GameObject Blackout;
     
 
 
@@ -18,6 +22,7 @@ public class Champ1 : MonoBehaviour
     public void ChampChoix1()
     {
         Choix2Panel.SetActive(false);
+        TimerBool = true;
     }
 
     public void ChampChoix2()
@@ -32,5 +37,19 @@ public class Champ1 : MonoBehaviour
 
         
         
+    }
+    public void Update()
+    {
+        if(TimerBool == true)
+        {
+            Blackout.SetActive(true);
+            timertime = timertime+ Time.deltaTime;
+        }
+        if(timertime>= 10f)
+        {
+            Blackout.SetActive(false);
+            TimerBool = false;
+            timertime=0;
+        }
     }
 }

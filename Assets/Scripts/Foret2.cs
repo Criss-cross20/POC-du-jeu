@@ -10,21 +10,20 @@ public class Foret2 : MonoBehaviour
   public GameObject Choix4Panel;
   public GameObject AutreArbre;
   public GameObject AutreArbre2;
+  public float timertime;
+   public bool TimerBool = false;
+
+   public GameObject Blackout;
+   
 
 
   public void Foret2Choix1()
   {
     Choix4Panel.SetActive(false);
-    StartCoroutine(FreezeRoutine());
+    TimerBool = true;
 
   }
-  IEnumerator FreezeRoutine()
-    {
-        Time.timeScale = 0f;
-        yield return new WaitForSecondsRealtime(30f);
-        Time.timeScale = 1f;
-    }
-
+ 
   public void Foret2Choix2()
   {
     Choix4Panel.SetActive(false);
@@ -35,6 +34,22 @@ public class Foret2 : MonoBehaviour
 
 
   }
+  public void Update()
+    {
+        if(TimerBool == true)
+        {
+            Blackout.SetActive(true);
+            timertime = timertime+ Time.deltaTime;
+        }
+        if(timertime>= 10f)
+        {
+            Blackout.SetActive(false);
+            TimerBool = false;
+            timertime=0;
+        }
+    }
+
+
 
 
   

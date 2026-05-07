@@ -7,22 +7,20 @@ public class FleurLunaire : MonoBehaviour
     
     public GameObject FleursLunaires;
     public GameObject Choix4Panel;
+    public float timertime;
+   public bool TimerBool = false;
+
+   public GameObject Blackout;
+   
 
 
     public void FleurChoix1()
     {
         Choix4Panel.SetActive(false);
-        StartCoroutine(FreezeRoutine());
+        TimerBool = true;
 
 
 
-    }
-
-    IEnumerator FreezeRoutine()
-    {
-        Time.timeScale = 0f;
-        yield return new WaitForSecondsRealtime(30f);
-        Time.timeScale = 1f;
     }
 
     public void FleurChoix2()
@@ -32,5 +30,19 @@ public class FleurLunaire : MonoBehaviour
         
 
 
+    }
+    public void Update()
+    {
+        if(TimerBool == true)
+        {
+            Blackout.SetActive(true);
+            timertime = timertime+ Time.deltaTime;
+        }
+        if(timertime>= 10f)
+        {
+            Blackout.SetActive(false);
+            TimerBool = false;
+            timertime=0;
+        }
     }
 }
