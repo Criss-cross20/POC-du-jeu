@@ -14,6 +14,7 @@ public class Lac : MonoBehaviour
     {
         Choix6Panel.SetActive(false);
         StartCoroutine(FreezeRoutine());
+        
 
     }
 
@@ -28,7 +29,9 @@ public class Lac : MonoBehaviour
         Choix6Panel.SetActive(false);
         Destroy(Animal);
         Eau.GetComponent<Renderer>().material.color=Color.brown;
-
+        Destroy(SacADos);
+        Instantiate(SacADos, new Vector3(281, -3, 0), Quaternion.Euler(2, 43, 90));
+        
 
 
     }

@@ -13,6 +13,8 @@ public class Montagne : MonoBehaviour
     {
         Choix9Panel.SetActive(false);
         StartCoroutine(FreezeRoutine());
+        Destroy(CubeRouge);
+        
     }
      IEnumerator FreezeRoutine()
     {
